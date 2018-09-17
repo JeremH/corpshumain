@@ -1,0 +1,109 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-image: url(banniere.jpg);
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 600;
+    color: RGB(0, 0, 0);
+}
+
+.text_head {
+    color: RGB(0, 0, 0);
+    font-weight: 700;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.btn-group a {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    border-bottom-color: rgb(108, 117, 125);
+    border-bottom-left-radius: 3.2px;
+    border-bottom-right-radius: 3.2px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(108, 117, 125);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(108, 117, 125);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(108, 117, 125);
+    border-top-left-radius: 3.2px;
+    border-top-right-radius: 3.2px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(108, 117, 125);
+    cursor: pointer;
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow: visible;
+    overflow-wrap: break-word;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    vertical-align: middle;
+    white-space: nowrap;
+    -moz-user-select: none;
+}
+
+.btn-group a:hover {
+    background-color: RGB(108, 117, 125);
+    color: white;
+}
