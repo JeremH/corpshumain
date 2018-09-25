@@ -1,10 +1,59 @@
 /* Show it is fixed to the top */
 body {
-  min-height: 75rem;
-  padding-top: 4.5rem;
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
 
-.img_muscle{
-    width: 60%;
+/*page squelette muscle*/
+
+#squ_muscle {
+    display: block;
+    margin: auto;
     height: 400px;
+}
+
+/*page muscle*/
+
+#marche {
+    height: 140px;
+    float: right;
+}
+
+.img_glucose {
+    width: 100%;
+    height: 450px;
+}
+
+#img_sucrose {
+    width: 90%;
+}
+
+.img_muscle {
+    width: 90%;
+    height: 500px;
+    padding-left: 8%;
+}
+
+.img_contraction {
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 2%;
+}
+
+caption {
+    caption-side: top;
+    margin-left: 12%;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+/*page squelette*/
+
+#squelette {
+    display: block;
+    margin: auto;
 }
